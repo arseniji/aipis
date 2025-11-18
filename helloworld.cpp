@@ -1,5 +1,11 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main(){
-    std::cout << "Nill Kiggers";
+    string kigger;
+    cout << "Say your name";
+    cin >> kigger;
+
+    std::cout << "Hello_world from" << kigger << endl;
 }
